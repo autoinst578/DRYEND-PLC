@@ -183,7 +183,7 @@
 		MainToolBarB27	TYPE_STRING	"1c 16 7e7c 0 11 1"
 		BrowzerDoc	TYPE_DWORD16	0xe81b
 		BrowzerFloat	TYPE_BOOL	TRUE
-		BrowzerWindowRect	TYPE_STRING	"1194 ffff997e 12d0 ffff999e"
+		BrowzerWindowRect	TYPE_STRING	"119a ffff99b4 12d6 ffff99d4"
 		BrowzerToolBarView	TYPE_BOOL	FALSE
 		BrowzerToolBarB0	TYPE_STRING	"6 0 4e66 1 78 1"
 		BrowzerToolBarB1	TYPE_STRING	"6 1 0 1 c 1"
@@ -265,14 +265,14 @@
 		ProgramToolBarB36	TYPE_STRING	"25 80000028 7e7f 0 15 1"
 		CommentDoc	TYPE_DWORD16	0xe81b
 		CommentFloat	TYPE_BOOL	TRUE
-		CommentWindowRect	TYPE_STRING	"1a2 980 1e0 9a0"
+		CommentWindowRect	TYPE_STRING	"1a8 9b6 1e6 9d6"
 		CommentToolBarView	TYPE_BOOL	TRUE
 		CommentToolBarB0	TYPE_STRING	"3 0 7e5e 0 0 1"
 		CommentToolBarB1	TYPE_STRING	"3 1 7e5f 0 1 1"
 		CommentToolBarB2	TYPE_STRING	"3 80000002 7e62 0 2 1"
 		DMemoryDoc	TYPE_DWORD16	0xe81b
 		DMemoryFloat	TYPE_BOOL	TRUE
-		DMemoryWindowRect	TYPE_STRING	"1194 ffff997e 11bb ffff999e"
+		DMemoryWindowRect	TYPE_STRING	"119a ffff99b4 11c1 ffff99d4"
 		DMemoryToolBarView	TYPE_BOOL	FALSE
 		DMemoryToolBarB0	TYPE_STRING	"7 80000002 7e7e 0 0 1"
 		DMemoryToolBarB1	TYPE_STRING	"7 80000003 7e7f 0 1 1"
@@ -353,12 +353,12 @@
 		ChildWndStyle	TYPE_BOOL	TRUE
 		SortType	TYPE_DWORD10	0
 	SaveTime:
-		Year	TYPE_DWORD10	2022
-		Month	TYPE_DWORD10	1
-		Day	TYPE_DWORD10	5
-		Hour	TYPE_DWORD10	21
-		Minute	TYPE_DWORD10	5
-		Second	TYPE_DWORD10	26
+		Year	TYPE_DWORD10	2011
+		Month	TYPE_DWORD10	7
+		Day	TYPE_DWORD10	14
+		Hour	TYPE_DWORD10	22
+		Minute	TYPE_DWORD10	23
+		Second	TYPE_DWORD10	29
 [Prg]
 	PrgOptDlg:
 		EditBlock	TYPE_WORD10	0
@@ -455,13 +455,13 @@
 		MacroInsOpt	TYPE_WORD10	0
 [Mon]
 	MonitorStatusDlg:
-		MonStatus	TYPE_BOOL	TRUE
+		MonStatus	TYPE_BOOL	FALSE
 		DispStatus	TYPE_BOOL	TRUE
-		FloatState	TYPE_BOOL	TRUE
-		WindowLeft	TYPE_DWORD10	1352
-		WindowTop	TYPE_DWORD10	56
-		WindowRight	TYPE_DWORD10	1602
-		WindowBottom	TYPE_DWORD10	84
+		FloatState	TYPE_BOOL	FALSE
+		WindowLeft	TYPE_DWORD10	0
+		WindowTop	TYPE_DWORD10	0
+		WindowRight	TYPE_DWORD10	0
+		WindowBottom	TYPE_DWORD10	0
 	MonitorStartCond:
 		ExecCondition	TYPE_WORD10	0
 		ProgramName	TYPE_STRING	""
@@ -633,18 +633,18 @@
 		Maximize	TYPE_BOOL	TRUE
 		Minimize	TYPE_BOOL	FALSE
 		InsFlag	TYPE_BOOL	FALSE
-		PrgMode	TYPE_WORD10	1
+		PrgMode	TYPE_WORD10	2
 		MonFlag	TYPE_BOOL	FALSE
 		FrameStat	TYPE_WORD10	0
 		StepNo	TYPE_DWORD10	-1
 		BlockNo	TYPE_WORD10	65535
-		StepPosition	TYPE_DWORD10	2497
+		StepPosition	TYPE_DWORD10	2505
 		ViewX	TYPE_DWORD10	0
 		ViewY	TYPE_DWORD10	0
 		WindowOrgX	TYPE_DWORD10	0
 		WindowOrgY	TYPE_DWORD10	0
-		CursorPositionX	TYPE_DWORD10	1
-		CursorPositionY	TYPE_DWORD10	0
+		CursorPositionX	TYPE_DWORD10	3
+		CursorPositionY	TYPE_DWORD10	2
 		MonitorDispType	TYPE_DWORD10	0
 		DispLabelFlag	TYPE_BOOL	FALSE
 		DispLabelStyle	TYPE_BOOL	FALSE
