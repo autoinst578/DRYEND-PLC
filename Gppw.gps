@@ -183,7 +183,7 @@
 		MainToolBarB27	TYPE_STRING	"1c 16 7e7c 0 11 1"
 		BrowzerDoc	TYPE_DWORD16	0xe81b
 		BrowzerFloat	TYPE_BOOL	TRUE
-		BrowzerWindowRect	TYPE_STRING	"118c ffff9936 12c8 ffff9956"
+		BrowzerWindowRect	TYPE_STRING	"118e ffff9948 12ca ffff9968"
 		BrowzerToolBarView	TYPE_BOOL	FALSE
 		BrowzerToolBarB0	TYPE_STRING	"6 0 4e66 1 78 1"
 		BrowzerToolBarB1	TYPE_STRING	"6 1 0 1 c 1"
@@ -265,14 +265,14 @@
 		ProgramToolBarB36	TYPE_STRING	"25 80000028 7e7f 0 15 1"
 		CommentDoc	TYPE_DWORD16	0xe81b
 		CommentFloat	TYPE_BOOL	TRUE
-		CommentWindowRect	TYPE_STRING	"19a 938 1d8 958"
+		CommentWindowRect	TYPE_STRING	"19c 94a 1da 96a"
 		CommentToolBarView	TYPE_BOOL	TRUE
 		CommentToolBarB0	TYPE_STRING	"3 0 7e5e 0 0 1"
 		CommentToolBarB1	TYPE_STRING	"3 1 7e5f 0 1 1"
 		CommentToolBarB2	TYPE_STRING	"3 80000002 7e62 0 2 1"
 		DMemoryDoc	TYPE_DWORD16	0xe81b
 		DMemoryFloat	TYPE_BOOL	TRUE
-		DMemoryWindowRect	TYPE_STRING	"118c ffff9936 11b3 ffff9956"
+		DMemoryWindowRect	TYPE_STRING	"118e ffff9948 11b5 ffff9968"
 		DMemoryToolBarView	TYPE_BOOL	FALSE
 		DMemoryToolBarB0	TYPE_STRING	"7 80000002 7e7e 0 0 1"
 		DMemoryToolBarB1	TYPE_STRING	"7 80000003 7e7f 0 1 1"
@@ -355,10 +355,10 @@
 	SaveTime:
 		Year	TYPE_DWORD10	2021
 		Month	TYPE_DWORD10	12
-		Day	TYPE_DWORD10	19
-		Hour	TYPE_DWORD10	18
-		Minute	TYPE_DWORD10	6
-		Second	TYPE_DWORD10	8
+		Day	TYPE_DWORD10	29
+		Hour	TYPE_DWORD10	8
+		Minute	TYPE_DWORD10	34
+		Second	TYPE_DWORD10	29
 [Prg]
 	PrgOptDlg:
 		EditBlock	TYPE_WORD10	0
@@ -595,16 +595,16 @@
 		DeviceTypeSW80	TYPE_WORD10	1
 [Cmnt]
 	SaveDevNameList:
-		SaveDevName000	TYPE_STRING	"Y35B"
-		SaveDevName001	TYPE_STRING	"X84"
-		SaveDevName002	TYPE_STRING	"X0C9"
-		SaveDevName003	TYPE_STRING	"X0DE"
-		SaveDevName004	TYPE_STRING	"Y35E"
-		SaveDevName005	TYPE_STRING	"X9A"
-		SaveDevName006	TYPE_STRING	"Y21D"
-		SaveDevName007	TYPE_STRING	"Y2CC"
-		SaveDevName008	TYPE_STRING	"Y2DA"
-		SaveDevName009	TYPE_STRING	"X0A5"
+		SaveDevName000	TYPE_STRING	"X1A9"
+		SaveDevName001	TYPE_STRING	"Y35B"
+		SaveDevName002	TYPE_STRING	"X84"
+		SaveDevName003	TYPE_STRING	"X0C9"
+		SaveDevName004	TYPE_STRING	"X0DE"
+		SaveDevName005	TYPE_STRING	"Y35E"
+		SaveDevName006	TYPE_STRING	"X9A"
+		SaveDevName007	TYPE_STRING	"Y21D"
+		SaveDevName008	TYPE_STRING	"Y2CC"
+		SaveDevName009	TYPE_STRING	"Y2DA"
 		SaveDevNameNo	TYPE_WORD10	10
 	SaveStrList:
 		SaveStrNo	TYPE_WORD10	0
@@ -638,12 +638,12 @@
 		FrameStat	TYPE_WORD10	0
 		StepNo	TYPE_DWORD10	-1
 		BlockNo	TYPE_WORD10	65535
-		StepPosition	TYPE_DWORD10	2500
+		StepPosition	TYPE_DWORD10	2306
 		ViewX	TYPE_DWORD10	0
 		ViewY	TYPE_DWORD10	0
 		WindowOrgX	TYPE_DWORD10	0
 		WindowOrgY	TYPE_DWORD10	0
-		CursorPositionX	TYPE_DWORD10	7
+		CursorPositionX	TYPE_DWORD10	1
 		CursorPositionY	TYPE_DWORD10	2
 		MonitorDispType	TYPE_DWORD10	0
 		DispLabelFlag	TYPE_BOOL	FALSE
