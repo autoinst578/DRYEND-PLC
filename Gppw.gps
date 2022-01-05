@@ -128,10 +128,10 @@
 [Gppw]
 	MainFrameWnd:
 		Maximize	TYPE_BOOL	TRUE
-		WindowLeft	TYPE_DWORD10	110
-		WindowTop	TYPE_DWORD10	110
-		WindowRight	TYPE_DWORD10	1310
-		WindowBottom	TYPE_DWORD10	767
+		WindowLeft	TYPE_DWORD10	44
+		WindowTop	TYPE_DWORD10	44
+		WindowRight	TYPE_DWORD10	1244
+		WindowBottom	TYPE_DWORD10	701
 		StatusBar	TYPE_BOOL	TRUE
 	BrowzerWnd:
 		BrowzerFloat	TYPE_BOOL	FALSE
@@ -183,7 +183,7 @@
 		MainToolBarB27	TYPE_STRING	"1c 16 7e7c 0 11 1"
 		BrowzerDoc	TYPE_DWORD16	0xe81b
 		BrowzerFloat	TYPE_BOOL	TRUE
-		BrowzerWindowRect	TYPE_STRING	"1192 ffff996c 12ce ffff998c"
+		BrowzerWindowRect	TYPE_STRING	"1194 ffff997e 12d0 ffff999e"
 		BrowzerToolBarView	TYPE_BOOL	FALSE
 		BrowzerToolBarB0	TYPE_STRING	"6 0 4e66 1 78 1"
 		BrowzerToolBarB1	TYPE_STRING	"6 1 0 1 c 1"
@@ -265,14 +265,14 @@
 		ProgramToolBarB36	TYPE_STRING	"25 80000028 7e7f 0 15 1"
 		CommentDoc	TYPE_DWORD16	0xe81b
 		CommentFloat	TYPE_BOOL	TRUE
-		CommentWindowRect	TYPE_STRING	"1a0 96e 1de 98e"
+		CommentWindowRect	TYPE_STRING	"1a2 980 1e0 9a0"
 		CommentToolBarView	TYPE_BOOL	TRUE
 		CommentToolBarB0	TYPE_STRING	"3 0 7e5e 0 0 1"
 		CommentToolBarB1	TYPE_STRING	"3 1 7e5f 0 1 1"
 		CommentToolBarB2	TYPE_STRING	"3 80000002 7e62 0 2 1"
 		DMemoryDoc	TYPE_DWORD16	0xe81b
 		DMemoryFloat	TYPE_BOOL	TRUE
-		DMemoryWindowRect	TYPE_STRING	"1192 ffff996c 11b9 ffff998c"
+		DMemoryWindowRect	TYPE_STRING	"1194 ffff997e 11bb ffff999e"
 		DMemoryToolBarView	TYPE_BOOL	FALSE
 		DMemoryToolBarB0	TYPE_STRING	"7 80000002 7e7e 0 0 1"
 		DMemoryToolBarB1	TYPE_STRING	"7 80000003 7e7f 0 1 1"
@@ -353,12 +353,12 @@
 		ChildWndStyle	TYPE_BOOL	TRUE
 		SortType	TYPE_DWORD10	0
 	SaveTime:
-		Year	TYPE_DWORD10	2021
-		Month	TYPE_DWORD10	12
-		Day	TYPE_DWORD10	29
-		Hour	TYPE_DWORD10	9
-		Minute	TYPE_DWORD10	37
-		Second	TYPE_DWORD10	15
+		Year	TYPE_DWORD10	2022
+		Month	TYPE_DWORD10	1
+		Day	TYPE_DWORD10	5
+		Hour	TYPE_DWORD10	21
+		Minute	TYPE_DWORD10	5
+		Second	TYPE_DWORD10	26
 [Prg]
 	PrgOptDlg:
 		EditBlock	TYPE_WORD10	0
@@ -455,13 +455,13 @@
 		MacroInsOpt	TYPE_WORD10	0
 [Mon]
 	MonitorStatusDlg:
-		MonStatus	TYPE_BOOL	FALSE
+		MonStatus	TYPE_BOOL	TRUE
 		DispStatus	TYPE_BOOL	TRUE
-		FloatState	TYPE_BOOL	FALSE
-		WindowLeft	TYPE_DWORD10	0
-		WindowTop	TYPE_DWORD10	0
-		WindowRight	TYPE_DWORD10	0
-		WindowBottom	TYPE_DWORD10	0
+		FloatState	TYPE_BOOL	TRUE
+		WindowLeft	TYPE_DWORD10	1352
+		WindowTop	TYPE_DWORD10	56
+		WindowRight	TYPE_DWORD10	1602
+		WindowBottom	TYPE_DWORD10	84
 	MonitorStartCond:
 		ExecCondition	TYPE_WORD10	0
 		ProgramName	TYPE_STRING	""
@@ -595,16 +595,16 @@
 		DeviceTypeSW80	TYPE_WORD10	1
 [Cmnt]
 	SaveDevNameList:
-		SaveDevName000	TYPE_STRING	"Y2CD"
-		SaveDevName001	TYPE_STRING	"T15"
-		SaveDevName002	TYPE_STRING	"X1A9"
-		SaveDevName003	TYPE_STRING	"Y35B"
-		SaveDevName004	TYPE_STRING	"X84"
-		SaveDevName005	TYPE_STRING	"X0C9"
-		SaveDevName006	TYPE_STRING	"X0DE"
-		SaveDevName007	TYPE_STRING	"Y35E"
-		SaveDevName008	TYPE_STRING	"X9A"
-		SaveDevName009	TYPE_STRING	"Y21D"
+		SaveDevName000	TYPE_STRING	"M45"
+		SaveDevName001	TYPE_STRING	"M27"
+		SaveDevName002	TYPE_STRING	"Y2CD"
+		SaveDevName003	TYPE_STRING	"T15"
+		SaveDevName004	TYPE_STRING	"X1A9"
+		SaveDevName005	TYPE_STRING	"Y35B"
+		SaveDevName006	TYPE_STRING	"X84"
+		SaveDevName007	TYPE_STRING	"X0C9"
+		SaveDevName008	TYPE_STRING	"X0DE"
+		SaveDevName009	TYPE_STRING	"Y35E"
 		SaveDevNameNo	TYPE_WORD10	10
 	SaveStrList:
 		SaveStrNo	TYPE_WORD10	0
@@ -638,7 +638,7 @@
 		FrameStat	TYPE_WORD10	0
 		StepNo	TYPE_DWORD10	-1
 		BlockNo	TYPE_WORD10	65535
-		StepPosition	TYPE_DWORD10	2324
+		StepPosition	TYPE_DWORD10	2497
 		ViewX	TYPE_DWORD10	0
 		ViewY	TYPE_DWORD10	0
 		WindowOrgX	TYPE_DWORD10	0
