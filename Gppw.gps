@@ -353,18 +353,18 @@
 		ChildWndStyle	TYPE_BOOL	TRUE
 		SortType	TYPE_DWORD10	0
 	SaveTime:
-		Year	TYPE_DWORD10	2011
-		Month	TYPE_DWORD10	7
-		Day	TYPE_DWORD10	14
-		Hour	TYPE_DWORD10	22
-		Minute	TYPE_DWORD10	23
-		Second	TYPE_DWORD10	29
+		Year	TYPE_DWORD10	2022
+		Month	TYPE_DWORD10	1
+		Day	TYPE_DWORD10	21
+		Hour	TYPE_DWORD10	10
+		Minute	TYPE_DWORD10	56
+		Second	TYPE_DWORD10	58
 [Prg]
 	PrgOptDlg:
 		EditBlock	TYPE_WORD10	0
 		DevCmnt	TYPE_BOOL	FALSE
 		MastCtrl	TYPE_BOOL	TRUE
-		RunWriteSet	TYPE_WORD10	0
+		RunWriteSet	TYPE_WORD10	2
 		RunWriteMethod	TYPE_WORD10	0
 		RunWriteFallInstruction	TYPE_BOOL	FALSE
 		RunWriteBackup	TYPE_BOOL	FALSE
@@ -455,13 +455,13 @@
 		MacroInsOpt	TYPE_WORD10	0
 [Mon]
 	MonitorStatusDlg:
-		MonStatus	TYPE_BOOL	FALSE
+		MonStatus	TYPE_BOOL	TRUE
 		DispStatus	TYPE_BOOL	TRUE
 		FloatState	TYPE_BOOL	FALSE
-		WindowLeft	TYPE_DWORD10	0
-		WindowTop	TYPE_DWORD10	0
-		WindowRight	TYPE_DWORD10	0
-		WindowBottom	TYPE_DWORD10	0
+		WindowLeft	TYPE_DWORD10	714
+		WindowTop	TYPE_DWORD10	166
+		WindowRight	TYPE_DWORD10	964
+		WindowBottom	TYPE_DWORD10	194
 	MonitorStartCond:
 		ExecCondition	TYPE_WORD10	0
 		ProgramName	TYPE_STRING	""
@@ -638,13 +638,13 @@
 		FrameStat	TYPE_WORD10	0
 		StepNo	TYPE_DWORD10	-1
 		BlockNo	TYPE_WORD10	65535
-		StepPosition	TYPE_DWORD10	2505
+		StepPosition	TYPE_DWORD10	2469
 		ViewX	TYPE_DWORD10	0
 		ViewY	TYPE_DWORD10	0
 		WindowOrgX	TYPE_DWORD10	0
 		WindowOrgY	TYPE_DWORD10	0
-		CursorPositionX	TYPE_DWORD10	3
-		CursorPositionY	TYPE_DWORD10	2
+		CursorPositionX	TYPE_DWORD10	1
+		CursorPositionY	TYPE_DWORD10	0
 		MonitorDispType	TYPE_DWORD10	0
 		DispLabelFlag	TYPE_BOOL	FALSE
 		DispLabelStyle	TYPE_BOOL	FALSE
