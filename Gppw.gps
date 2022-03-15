@@ -357,14 +357,14 @@
 		Month	TYPE_DWORD10	3
 		Day	TYPE_DWORD10	15
 		Hour	TYPE_DWORD10	15
-		Minute	TYPE_DWORD10	23
-		Second	TYPE_DWORD10	37
+		Minute	TYPE_DWORD10	38
+		Second	TYPE_DWORD10	46
 [Prg]
 	PrgOptDlg:
 		EditBlock	TYPE_WORD10	0
 		DevCmnt	TYPE_BOOL	FALSE
 		MastCtrl	TYPE_BOOL	TRUE
-		RunWriteSet	TYPE_WORD10	0
+		RunWriteSet	TYPE_WORD10	2
 		RunWriteMethod	TYPE_WORD10	0
 		RunWriteFallInstruction	TYPE_BOOL	FALSE
 		RunWriteBackup	TYPE_BOOL	FALSE
@@ -456,7 +456,7 @@
 [Mon]
 	MonitorStatusDlg:
 		MonStatus	TYPE_BOOL	TRUE
-		DispStatus	TYPE_BOOL	TRUE
+		DispStatus	TYPE_BOOL	FALSE
 		FloatState	TYPE_BOOL	FALSE
 		WindowLeft	TYPE_DWORD10	714
 		WindowTop	TYPE_DWORD10	166
@@ -633,18 +633,18 @@
 		Maximize	TYPE_BOOL	TRUE
 		Minimize	TYPE_BOOL	FALSE
 		InsFlag	TYPE_BOOL	FALSE
-		PrgMode	TYPE_WORD10	1
+		PrgMode	TYPE_WORD10	2
 		MonFlag	TYPE_BOOL	FALSE
 		FrameStat	TYPE_WORD10	0
 		StepNo	TYPE_DWORD10	-1
 		BlockNo	TYPE_WORD10	65535
-		StepPosition	TYPE_DWORD10	87
+		StepPosition	TYPE_DWORD10	2456
 		ViewX	TYPE_DWORD10	0
 		ViewY	TYPE_DWORD10	0
 		WindowOrgX	TYPE_DWORD10	0
 		WindowOrgY	TYPE_DWORD10	0
-		CursorPositionX	TYPE_DWORD10	1
-		CursorPositionY	TYPE_DWORD10	0
+		CursorPositionX	TYPE_DWORD10	7
+		CursorPositionY	TYPE_DWORD10	1
 		MonitorDispType	TYPE_DWORD10	0
 		DispLabelFlag	TYPE_BOOL	FALSE
 		DispLabelStyle	TYPE_BOOL	FALSE
