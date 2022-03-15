@@ -128,10 +128,10 @@
 [Gppw]
 	MainFrameWnd:
 		Maximize	TYPE_BOOL	TRUE
-		WindowLeft	TYPE_DWORD10	176
-		WindowTop	TYPE_DWORD10	176
-		WindowRight	TYPE_DWORD10	1376
-		WindowBottom	TYPE_DWORD10	833
+		WindowLeft	TYPE_DWORD10	88
+		WindowTop	TYPE_DWORD10	88
+		WindowRight	TYPE_DWORD10	1288
+		WindowBottom	TYPE_DWORD10	745
 		StatusBar	TYPE_BOOL	TRUE
 	BrowzerWnd:
 		BrowzerFloat	TYPE_BOOL	FALSE
@@ -183,7 +183,7 @@
 		MainToolBarB27	TYPE_STRING	"1c 16 7e7c 0 11 1"
 		BrowzerDoc	TYPE_DWORD16	0xe81b
 		BrowzerFloat	TYPE_BOOL	TRUE
-		BrowzerWindowRect	TYPE_STRING	"119c ffff99c6 12d8 ffff99e6"
+		BrowzerWindowRect	TYPE_STRING	"119e ffff99d8 12da ffff99f8"
 		BrowzerToolBarView	TYPE_BOOL	FALSE
 		BrowzerToolBarB0	TYPE_STRING	"6 0 4e66 1 78 1"
 		BrowzerToolBarB1	TYPE_STRING	"6 1 0 1 c 1"
@@ -265,14 +265,14 @@
 		ProgramToolBarB36	TYPE_STRING	"25 80000028 7e7f 0 15 1"
 		CommentDoc	TYPE_DWORD16	0xe81b
 		CommentFloat	TYPE_BOOL	TRUE
-		CommentWindowRect	TYPE_STRING	"1aa 9c8 1e8 9e8"
+		CommentWindowRect	TYPE_STRING	"1ac 9da 1ea 9fa"
 		CommentToolBarView	TYPE_BOOL	TRUE
 		CommentToolBarB0	TYPE_STRING	"3 0 7e5e 0 0 1"
 		CommentToolBarB1	TYPE_STRING	"3 1 7e5f 0 1 1"
 		CommentToolBarB2	TYPE_STRING	"3 80000002 7e62 0 2 1"
 		DMemoryDoc	TYPE_DWORD16	0xe81b
 		DMemoryFloat	TYPE_BOOL	TRUE
-		DMemoryWindowRect	TYPE_STRING	"119c ffff99c6 11c3 ffff99e6"
+		DMemoryWindowRect	TYPE_STRING	"119e ffff99d8 11c5 ffff99f8"
 		DMemoryToolBarView	TYPE_BOOL	FALSE
 		DMemoryToolBarB0	TYPE_STRING	"7 80000002 7e7e 0 0 1"
 		DMemoryToolBarB1	TYPE_STRING	"7 80000003 7e7f 0 1 1"
@@ -357,8 +357,8 @@
 		Month	TYPE_DWORD10	3
 		Day	TYPE_DWORD10	15
 		Hour	TYPE_DWORD10	15
-		Minute	TYPE_DWORD10	38
-		Second	TYPE_DWORD10	46
+		Minute	TYPE_DWORD10	56
+		Second	TYPE_DWORD10	58
 [Prg]
 	PrgOptDlg:
 		EditBlock	TYPE_WORD10	0
@@ -456,7 +456,7 @@
 [Mon]
 	MonitorStatusDlg:
 		MonStatus	TYPE_BOOL	TRUE
-		DispStatus	TYPE_BOOL	FALSE
+		DispStatus	TYPE_BOOL	TRUE
 		FloatState	TYPE_BOOL	FALSE
 		WindowLeft	TYPE_DWORD10	714
 		WindowTop	TYPE_DWORD10	166
@@ -638,13 +638,13 @@
 		FrameStat	TYPE_WORD10	0
 		StepNo	TYPE_DWORD10	-1
 		BlockNo	TYPE_WORD10	65535
-		StepPosition	TYPE_DWORD10	2456
+		StepPosition	TYPE_DWORD10	39
 		ViewX	TYPE_DWORD10	0
 		ViewY	TYPE_DWORD10	0
 		WindowOrgX	TYPE_DWORD10	0
 		WindowOrgY	TYPE_DWORD10	0
-		CursorPositionX	TYPE_DWORD10	7
-		CursorPositionY	TYPE_DWORD10	1
+		CursorPositionX	TYPE_DWORD10	1
+		CursorPositionY	TYPE_DWORD10	0
 		MonitorDispType	TYPE_DWORD10	0
 		DispLabelFlag	TYPE_BOOL	FALSE
 		DispLabelStyle	TYPE_BOOL	FALSE
